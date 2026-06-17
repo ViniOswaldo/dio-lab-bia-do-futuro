@@ -1,4 +1,4 @@
-# 🤖 FinEduca - Agente Financeiro Inteligente para Educação Financeira e Certificações ANBIMA
+# 🤖 FinEduca - Agente Financeiro Inteligente para Educação Financeira
 
 ## Contexto
 
