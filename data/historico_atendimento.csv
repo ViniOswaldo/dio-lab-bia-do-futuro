@@ -1,6 +1,7 @@
-data,canal,tema,resumo,resolvido
-2025-09-15,chat,CDB,Cliente perguntou sobre rentabilidade e prazos,sim
-2025-09-22,telefone,Problema no app,Erro ao visualizar extrato foi corrigido,sim
-2025-10-01,chat,Tesouro Selic,Cliente pediu explicação sobre o funcionamento do Tesouro Direto,sim
-2025-10-12,chat,Metas financeiras,Cliente acompanhou o progresso da reserva de emergência,sim
-2025-10-25,email,Atualização cadastral,Cliente atualizou e-mail e telefone,sim
+data,tema,pergunta,status 
+2026-06-01,Inflação,O que é inflação?,Concluído 
+2026-06-03,Juros Compostos,Como funcionam os juros compostos?,Concluído 
+2026-06-05,Sistema Financeiro Nacional,Qual o papel do Banco Central?,Concluído 
+2026-06-07,Renda Fixa,O que é Tesouro Selic?,Em andamento 
+2026-06-09,Fundos de Investimento,Como funcionam os fundos?,Em andamento 
+2026-06-11,Tributação,Como funciona o imposto de renda nos investimentos?,Pendente
