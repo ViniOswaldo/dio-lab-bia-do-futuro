@@ -66,31 +66,35 @@ Apresentação resumida do FinEduca, destacando problema, solução, demonstraç
 
 ---
 
+```text
 📁 fineduca/
 │
 ├── README.md                     # Documentação principal do projeto
 │
-├── data/                          # Dados auxiliares e exemplos
-│   ├── historico_conversas.json   # Histórico de conversas (sessão/local)
-│   ├── perfil_investidor.json     # Exemplo de perfil de usuário
-│   ├── produtos_financeiros.json  # Exemplos de produtos financeiros
-│   └── transacoes.csv             # Dados simulados de transações
+├── data/                         # Dados auxiliares e exemplos
+│   ├── historico_conversas.json  # Histórico de conversas (sessão/local)
+│   ├── perfil_investidor.json    # Exemplo de perfil de usuário
+│   ├── produtos_financeiros.json # Exemplos de produtos financeiros
+│   └── transacoes.csv            # Dados simulados de transações
 │
-├── docs/                          # Documentação complementar
-│   ├── 01-documentacao-agente.md
-│   ├── 02-base-conhecimento.md
-│   ├── 03-prompts.md
-│   ├── 04-metricas.md
-│   └── 05-pitch.md
+├── docs/                         # Documentação complementar
+│   ├── 01-documentacao-agente.md # Detalhes sobre o agente FinEduca
+│   ├── 02-base-conhecimento.md   # Estrutura e fontes da base de conhecimento
+│   ├── 03-prompts.md             # System Prompt e templates
+│   ├── 04-metricas.md            # Indicadores e métricas de desempenho
+│   └── 05-pitch.md               # Pitch de apresentação do projeto
 │
-├── src/                           # Código-fonte principal
-│   ├── app.py                     # Interface Streamlit (chat, quiz, histórico)
-│   ├── agente.py                  # Lógica de interação do agente
-│   ├── conhecimento.py            # Carregamento da base de conhecimento
-│   ├── validacao.py               # Regras de conformidade e anti-alucinação
-│   ├── prompts.py                 # System Prompt e templates
-│   └── config.py                  # Configurações gerais (chaves, modelos)
+├── src/                          # Código-fonte principal
+│   ├── app.py                    # Interface Streamlit (chat, quiz, histórico)
+│   ├── agente.py                 # Lógica de interação do agente
+│   ├── conhecimento.py           # Carregamento da base de conhecimento
+│   ├── validacao.py              # Regras de conformidade e anti-alucinação
+│   ├── prompts.py                # System Prompt e templates
+│   └── config.py                 # Configurações gerais (chaves, modelos)
 │
-├── assets/                        # Recursos visuais (imagens, ícones, etc.)
+├── assets/                       # Recursos visuais (imagens, ícones, etc.)
 │
-└── requirements.txt               # Dependências do projeto
+└── requirements.txt              # Dependências do projeto
+```
+
+
