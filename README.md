@@ -97,4 +97,8 @@ Apresentação resumida do FinEduca, destacando problema, solução, demonstraç
 └── requirements.txt              # Dependências do projeto
 ```
 
+### 7. Codigo em Python do Agente IA
 
+📄 **Codigo:** [`docs/06-codagenteia.md`](./docs/06-codagenteia.md)
+
+---
