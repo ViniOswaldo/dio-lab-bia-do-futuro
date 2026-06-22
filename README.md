@@ -66,35 +66,31 @@ Apresentação resumida do FinEduca, destacando problema, solução, demonstraç
 
 ---
 
-## Estrutura do Repositório
-
-```text
 📁 fineduca/
 │
-├── README.md
+├── README.md                     # Documentação principal do projeto
 │
-├── data/
-│   ├── historico_atendimento.csv
-│   ├── perfil_investidor.json
-│   ├── produtos_financeiros.json
-│   └── transacoes.csv
+├── data/                          # Dados auxiliares e exemplos
+│   ├── historico_conversas.json   # Histórico de conversas (sessão/local)
+│   ├── perfil_investidor.json     # Exemplo de perfil de usuário
+│   ├── produtos_financeiros.json  # Exemplos de produtos financeiros
+│   └── transacoes.csv             # Dados simulados de transações
 │
-├── docs/
+├── docs/                          # Documentação complementar
 │   ├── 01-documentacao-agente.md
 │   ├── 02-base-conhecimento.md
 │   ├── 03-prompts.md
 │   ├── 04-metricas.md
 │   └── 05-pitch.md
 │
-├── src/
-│   ├── app.py
-│   ├── agente.py
-│   ├── conhecimento.py
-│   ├── validacao.py
-│   ├── prompts.py
-│   └── config.py
+├── src/                           # Código-fonte principal
+│   ├── app.py                     # Interface Streamlit (chat, quiz, histórico)
+│   ├── agente.py                  # Lógica de interação do agente
+│   ├── conhecimento.py            # Carregamento da base de conhecimento
+│   ├── validacao.py               # Regras de conformidade e anti-alucinação
+│   ├── prompts.py                 # System Prompt e templates
+│   └── config.py                  # Configurações gerais (chaves, modelos)
 │
-├── assets/
+├── assets/                        # Recursos visuais (imagens, ícones, etc.)
 │
-└── requirements.txt
-```
+└── requirements.txt               # Dependências do projeto
