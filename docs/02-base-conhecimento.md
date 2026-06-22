@@ -7,22 +7,15 @@ O FinEduca carrega os arquivos da pasta `data/` durante a inicialização da apl
 Os arquivos CSV são processados utilizando a biblioteca Pandas, enquanto os arquivos JSON são carregados utilizando a biblioteca nativa `json` do Python.
 
 ```python
+# ======================= IMPORTE BIBLIOTECA  ===========================
 import pandas as pd
 import json
 
-# Histórico de aprendizado e interações
-historico = pd.read_csv("data/historico_atendimento.csv")
-
-# Exemplos financeiros e exercícios práticos
-transacoes = pd.read_csv("data/transacoes.csv")
-
-# Perfil do usuário
-with open("data/perfil_investidor.json", "r", encoding="utf-8") as f:
-    perfil = json.load(f)
-
-# Produtos financeiros utilizados para fins educacionais
-with open("data/produtos_financeiros.json", "r", encoding="utf-8") as f:
-    produtos = json.load(f)
+# ======================= CARREGAR DADOS =================================
+perfil_investidor =  json.load(open('./data/perfil_investidor.json'))
+transacoes =  pd.read_csv('./data/transacoes.csv')
+historico_atendimento =  pd.read_csv('./data/historico_atendimento.csv')
+produtos_financeiros =  json.load(open('./data/produtos_financeiros.json'))
 ```
 
 Após o carregamento, os dados permanecem disponíveis durante toda a sessão para consulta e personalização das respostas.
